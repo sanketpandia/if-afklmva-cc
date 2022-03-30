@@ -1,0 +1,37 @@
+Users:
+
+1. ifcId
+2. username
+3. callsign
+4. password
+5. passwordExpiry
+6. discordId
+7. isIfatc
+8. ifatcRegion
+9. aboutText  -> Pilot chosen self description for themselves
+10. isGroupFlight -> If pilot chose to be notified for group flights
+11. ifcUserHash
+
+Routes:
+1. origin
+2. originName
+3. arrival
+4. arrivalName
+5. aircraft
+6. airline
+7. routeType -> Type of Route
+8. linkedFlightMode -> Link to flight mode for easy filing
+9. multiplier -> if any
+
+RouteSuggestions:
+1. routeSuggestionBy
+2. FlightRadarURL
+3. origin
+4. arrival
+5. suggestionType -> (Diffferent aircraft, Route doesn't exist in DB, Specific airline not in DB)
+
+Pireps:
+1. Route
+2. User
+3. Flight Time
+4. Comments
